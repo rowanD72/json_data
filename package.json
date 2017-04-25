@@ -1,0 +1,23 @@
+{
+  "name": "json_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsonfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constsync/json_data.git"
+  },
+  "author": "Timothy McKyer <timothy.mbc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/constsync/json_data/issues"
+  },
+  "homepage": "https://github.com/constsync/json_data#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jquery": "^3.2.1"
+  }
+}

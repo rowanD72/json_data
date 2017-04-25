@@ -1,9 +1,11 @@
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
 $(document).ready(function () {
-    
+  console.log('js loaded.');
+
     "use strict";
-    $.getJSON("./dataTable.json", function (data) {
+    $.getJSON("dataTable.json", function (data) {
+        console.info('All the data: ', data);
         var items = [];
         $.each(data, function (key, val) {
             items.push("<tr>");
@@ -15,4 +17,3 @@ $(document).ready(function () {
         $("<tbody>", {"class": "mydata", html: items.join("") }).appendTo("table");
     });
 });
-
